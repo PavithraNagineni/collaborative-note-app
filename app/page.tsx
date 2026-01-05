@@ -1,9 +1,9 @@
 "use client";
+import Editor from "../components/Editor";
+import NotesList from "../components/NotesList";
+import VersionHistory from "../components/VersionHistory";
+import { useNotes } from "../hooks/useNotes";
 
-import NotesList from "@/components/NotesList";
-import Editor from "@/components/Editor";
-import VersionHistory from "@/components/VersionHistory";
-import { useNotes } from "@/hooks/useNotes";
 
 export default function Home() {
   const {
