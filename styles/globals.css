@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: system-ui;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  padding: 10px;
+}
+
+.editor {
+  flex: 1;
+  padding: 10px;
+}
+
+.versions {
+  width: 200px;
+  padding: 10px;
+  border-left: 1px solid #ddd;
+}
